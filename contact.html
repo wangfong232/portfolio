@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-card">
+            <nav class="navbar">
+                <div class="logo">wf</div>
+                <ul class="desktop-menu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                </ul>
+                <div class="button"><a href="contact.html">contact</a></div>
+                <div class="hamburger" id="hamburger">&#9776;</div>
+            </nav>
+
+            <!-- Fullscreen popup menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <ul class="menu-links">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <section class="section-contact">
+                <h2>Contact me</h2>
+                <p>Feel free to reach out for collaborations or just a friendly hello 👋 <br>(not active)</p>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> toilaphong232@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer class="footer">
+                <div class="footer-content">
+                    <p>&copy; 2025 wf. All rights reserved.</p>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
